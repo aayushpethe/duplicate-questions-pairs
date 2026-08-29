@@ -1,6 +1,6 @@
 import streamlit as st
 import helper
-import pickle
+import pickel
 import requests
 import io
 
