@@ -1,13 +1,13 @@
 import streamlit as st
 import helper
-import pickel
+import pickle as pkl
 import requests
 import io
 
 MODEL_URL = "https://huggingface.co/aayushpethe/duplicate-question-model/resolve/main/model.pkl"
 
 response = requests.get(MODEL_URL)
-model = pickel.load(io.BytesIO(response.content))
+model = pkl.load(io.BytesIO(response.content))
 
 st.header('Duplicate Question Pairs')
 
