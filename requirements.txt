@@ -1,1 +1,7 @@
 beautifulsoup4
+streamlit
+sklearn
+fuzzywuzzy
+distance
+joblib
+scipy
