@@ -6,7 +6,7 @@ import io
 
 MODEL_URL = "https://huggingface.co/aayushpethe/duplicate-question-model/resolve/main/model.pkl"
 
-response requests.get(MODEL_URL)
+response = requests.get(MODEL_URL)
 model = pickel.load(io.BytesIO(response.content))
 
 st.header('Duplicate Question Pairs')
