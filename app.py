@@ -20,7 +20,6 @@ if st.button('Find'):
 
     st.write("Prediction:", result)
     st.write("Feature shape:", query.shape)
-    st.write("Feature shape:", query.shape)
 
     if result:
         st.header('Duplicate')
