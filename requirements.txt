@@ -5,3 +5,4 @@ fuzzywuzzy
 distance
 joblib
 scipy
+nltk
